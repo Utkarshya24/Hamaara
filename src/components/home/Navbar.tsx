@@ -27,17 +27,17 @@ const Navbar = () => {
         <nav style={navShadow} className='sticky z-20 w-full bg-black rounded-2xl flex justify-between items-center  px-2'>
             <div className='flex items-center gap-2'>
                 <div className='rounded-[6px] w-[27px] h-[26px] bg-gradient-to-r from-primary to-secondary' style={logo}></div>
-                <p className='font-instrument-serif text-white text-[30px] font-weight-400'>Hamaar</p>
+                <p className='font-instrument-serif text-white text-[30px] font-normal'>Hamaar</p>
             </div>
-            <div className='flex items-center gap-[18px] font-inter text-[16px] font-weight-600'>
+            <div className='flex items-center gap-[18px] font-inter text-[16px] font-semibold'>
                 <p className='text-primary '>Home</p>
                 <p className='text-white'>About</p>
                 <p className='text-white'>Our Project</p>
                 <p className='text-white'>Invest Now</p>
             </div> 
             <div className='flex items-center  gap-[10px]'>
-                <button className='bg-gradient-to-t from-[#2C2C2D] to-[#787878] text-white rounded-xl  px-4 justify-center items-center font-inter text-[14px] font-weight-600 flex  h-[30px]'>Get In Touch</button>
-                <button className='bg-gradient-to-t from-[#5CC8D7] to-[#9EF3FF] text-black rounded-xl px-4 justify-center items-center font-inter text-[14px] font-weight-600  flex h-[30px]'>Invest</button>
+                <button className='bg-gradient-to-t from-[#2C2C2D] to-[#787878] text-white rounded-xl  px-4 justify-center items-center font-inter text-[14px] font-semibold shadow-lg flex  h-[30px]'>Get In Touch</button>
+                <button className='bg-gradient-to-t from-[#5CC8D7] to-[#9EF3FF] text-black rounded-xl px-4 justify-center items-center font-inter text-[14px] font-semibold shadow-lg  flex h-[30px]'>Invest</button>
             </div>
 
         </nav>    
