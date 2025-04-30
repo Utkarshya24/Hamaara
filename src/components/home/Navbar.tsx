@@ -27,7 +27,7 @@ const Navbar = () => {
         <nav style={navShadow} className='sticky z-20 w-full bg-black rounded-2xl flex justify-between items-center  px-2'>
             <div className='flex items-center gap-2'>
                 <div className='rounded-[6px] w-[27px] h-[26px] bg-gradient-to-r from-primary to-secondary' style={logo}></div>
-                <p className='font-instrument-serif text-white text-[30px] font-normal'>Hamaar</p>
+                <p className='font-instrument-serif text-white text-[30px] font-normal'>Hamaara</p>
             </div>
             <div className='flex items-center gap-[18px] font-inter text-[16px] font-semibold'>
                 <p className='text-primary '>Home</p>
