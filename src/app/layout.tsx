@@ -3,6 +3,7 @@ import {Geist, Inter, Montserrat, Roboto, Manrope, DM_Sans, Instrument_Serif  } 
 import "./globals.css";
 import Navbar from "@/components/home/Navbar";
 import Note from "@/components/home/Note";
+import Footer from "@/components/home/Footer";
 
 // Google Fonts import
 const geist = Geist({ variable: "--font-geist", subsets: ["latin"] });
@@ -37,6 +38,7 @@ export default function RootLayout({
           <Navbar/>
           {children}
         </div>
+        <Footer/>
       </body>
     </html>
   );

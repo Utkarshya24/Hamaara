@@ -1,6 +1,10 @@
 import Articles from "@/components/home/Articles";
+import ContactUs from "@/components/home/ContactUs";
 import Hero from "@/components/home/Hero";
 import ValuationCards from "@/components/home/valuationCards";
+import { TbHomeSearch } from "react-icons/tb";
+import { RiTeamFill } from "react-icons/ri";
+import { BsHouseLock } from "react-icons/bs";
 
 
 export default function Home() {
@@ -112,26 +116,26 @@ export default function Home() {
           <div className="flex md:flex-row flex-col w-full h-[750px] justify-center items-center gap-4 w-full py-4">
             <div className="w-full h-full justify-start items-start flex flex-col gap-2">
               <div className="w-full h-full flex flex-col gap-2">
-                <div className="w-full h-full bg-[url('/icons/home.svg')] bg-cover bg-center rounded-2xl"></div>
+              <TbHomeSearch className="w-10 h-10"/>
                 <p className="text-black text-start text-[21px] font-roboto font-semibold ">Step 1</p>
                 <p className="text-black text-start text-[15px] font-roboto font-normal">Sumo petentium ut per, at his wisim utinam adipiscing. Est ei graeco
                 Lorem ipsum dolor sit amet, consectetur adipiscing</p>
               </div>
               <div className="w-full h-full flex flex-col gap-2">
-                <div className="w-full h-full bg-[url('/icons/home.svg')] bg-cover bg-center rounded-2xl"></div>
-                <p className="text-black text-start text-[21px] font-roboto font-semibold ">Step 1</p>
+              <RiTeamFill className="w-10 h-10"/>               
+               <p className="text-black text-start text-[21px] font-roboto font-semibold ">Step 2</p>
                 <p className="text-black text-start text-[15px] font-roboto font-normal">Sumo petentium ut per, at his wisim utinam adipiscing. Est ei graeco
                 Lorem ipsum dolor sit amet, consectetur adipiscing</p>
               </div>
               <div className="w-full h-full flex flex-col gap-2">
-                <div className="w-full h-full bg-[url('/icons/home.svg')] bg-cover bg-center rounded-2xl"></div>
-                <p className="text-black text-start text-[21px] font-roboto font-semibold ">Step 1</p>
+              <BsHouseLock className="w-10 h-10"/>                
+              <p className="text-black text-start text-[21px] font-roboto font-semibold ">Step 3</p>
                 <p className="text-black text-start text-[15px] font-roboto font-normal">Sumo petentium ut per, at his wisim utinam adipiscing. Est ei graeco
                 Lorem ipsum dolor sit amet, consectetur adipiscing</p>
               </div>
               <div className="w-full h-full flex flex-col gap-2">
-                <div className="w-full h-full bg-[url('/icons/home.svg')] bg-cover bg-center rounded-2xl"></div>
-                <p className="text-black text-start text-[21px] font-roboto font-semibold ">Step 1</p>
+              <RiTeamFill className="w-10 h-10"/>                  
+              <p className="text-black text-start text-[21px] font-roboto font-semibold ">Step 4</p>
                 <p className="text-black text-start text-[15px] font-roboto font-normal">Sumo petentium ut per, at his wisim utinam adipiscing. Est ei graeco
                 Lorem ipsum dolor sit amet, consectetur adipiscing</p>
               </div>
@@ -162,6 +166,36 @@ export default function Home() {
         </div>
         </div>
         <Articles/>
+        <ContactUs />
+        <div className="flex justify-between font-inter font-semibold px-10 items-center w-full h-[100px] ">
+        <div className="flex justify-center items-center gap-2 w-auto h-[100px]">
+          <div className="bg-black rounded-sm w-[25px] h-[25px]"></div>
+          Logo
+
+        </div>
+        <div className="flex justify-center items-center gap-2 w-auto h-[100px]">
+          <div className="bg-black rounded-sm w-[25px] h-[25px]"></div>
+          Logo
+
+        </div>
+       
+        <div className="flex justify-center items-center gap-2 w-auto h-[100px]">
+          <div className="bg-black rounded-sm w-[25px] h-[25px]"></div>
+          Logo
+
+        </div>
+        <div className="flex justify-center items-center gap-2 w-auto h-[100px]">
+          <div className="bg-black rounded-sm w-[25px] h-[25px]"></div>
+          Logo
+
+        </div>
+        <div className="flex justify-center items-center gap-2 w-auto h-[100px]">
+          <div className="bg-black rounded-sm w-[25px] h-[25px]"></div>
+          Logo
+
+        </div>
+
+      </div> 
     </div>
   );
 }
